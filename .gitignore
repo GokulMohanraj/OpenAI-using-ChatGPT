@@ -1,3 +1,4 @@
 v-environment/pyvenv.cfg
 v-environment
 config.py
+__pycache__

@@ -34,10 +34,10 @@ while True:
             )
 
             # Print the response
-            for result in responce.choices:
-                print(result.text)
+            answer = responce.choices[0].text.strip()
+            print(f'\n{answer}')
 
         # If the user types 'exit', end the loop
         else:
-            print('Thankyou....')
+            print(f'\nThankyou....')
             break
